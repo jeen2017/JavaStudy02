@@ -1,0 +1,32 @@
+public class J51 {
+	public static void main(String[] args) {
+		//          0  1  2  3  4  5
+		int[] jum={80,60,90,50,70,49};
+		int[] rank=new int[jum.length];
+		
+		for(int i=0; i<jum.length; i++){
+		int r=1; //석차 저장변수 → 1등으로 가정
+		for(int j=0; j<jum.length; j++) {
+			if(jum[i] < jum[j]) {
+				r=r+1; // r++, r+=1
+			}
+		}
+		rank[i]=r; //2
+		}
+		System.out.println("점수\t석차");
+		for(int i=0; i<jum.length; i++){
+			System.out.println(jum[i]+"\t"+rank[i]);
+		}
+		
+	}
+
+}
+/*
+점수   등수 (석차, 순위)
+80 : 2
+60 : 4
+90 : 1
+50 : 5
+70 : 3
+49 : 6
+*/

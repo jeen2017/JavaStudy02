@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="bit.data.AutoData"/>
+<fullyQualifiedTypeName name="bit.data.BookDTO"/>
+<fullyQualifiedTypeName name="javax.swing.JTable.PrintMode"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.FloatHolder"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="bit.edu.BookVO"/>
+<fullyQualifiedTypeName name="bit.data.MovieVO"/>
+<fullyQualifiedTypeName name="bit.edu.MovieVO"/>
+</qualifiedTypeNameHistroy>

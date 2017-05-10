@@ -1,0 +1,12 @@
+import bit.data.MovieVO;
+
+public class J55 {
+	public static void main(String[] args) {
+		// 영화 1편을 저장하기 위한 객체생성 = 인스턴스생성
+		MovieVO v=new MovieVO(); // 생성은 되었으나 초기화는 안됨.
+		
+		
+		
+	}
+
+}

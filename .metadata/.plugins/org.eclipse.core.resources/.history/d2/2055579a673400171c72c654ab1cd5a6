@@ -1,0 +1,14 @@
+import bit.edu.MovieVO;
+
+public class J57 {
+	public static void main(String[] args) {
+		MovieVO[] v=new MovieVO[3]; // 객체배열
+		v[0]=new MovieVO("보스", 12000, "보스", 12);
+		v[1]=new MovieVO("명량", 12000, "명량", 10);
+		v[2]=new MovieVO("비트", 12000, "비트", 15);
+		// 레벨을 기준으로 오름차순 정렬하여 출력 하시오
+		
+		
+	}
+
+}

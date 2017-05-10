@@ -1,0 +1,50 @@
+package bit.edu;
+// 영화 → 제목, 가격, 주인공, 제작사, 상영관, 시간, 등급 등... : 상태정보
+public class MovieVO {    // MovieVO 클라스
+    // 1. 모든 멤버변수는 정보은닉 (private)
+	private String title;
+	private int price;
+	private String major;
+	private int level;
+	
+    // 2. 디폴트 생성자메서드(생략)를 명시적으로 만들것
+	public MovieVO(){
+		// a.객체를 생성하는 일(내부적으로 하는일)
+		// b.객체의 초기화하는 일(직접)
+		title="보스 베이비";
+		price=15000;
+		major=
+	}
+	
+	// 3. setter, getter method
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title; // this: 클래스를 설계할때 언젠가는 만들어질 자기자신을 가르키는 포인터
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	public String getMajor() {
+		return major;
+	}
+	public void setMajor(String major) {
+		this.major = major;
+	}
+	public int getLevel() {
+		return level;
+	}
+	public void setLevel(int level) {
+		this.level = level;
+	}
+	
+	// 4. 디버깅을 위해 toString()을 만들것
+	@Override
+	public String toString() {
+		return "MovieVO [title=" + title + ", price=" + price + ", major=" + major + ", level=" + level + "]";
+	}
+}
